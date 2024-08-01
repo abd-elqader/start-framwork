@@ -1,4 +1,3 @@
-import Image from "../Image/Image";
 import src1 from "../../assets/image1.jpeg";
 import src2 from "../../assets/image2.jpeg";
 import src3 from "../../assets/image3.jpeg";
@@ -8,19 +7,25 @@ export default function Portfolio() {
     const alt3 = "image3";
 
     return (
-        <div className="w-full  justify-center">
-            <h2>Portfolio Component</h2>
-            <div className="w-8/12">
-                <Image src={src1} alt={alt1}/>  
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 container mx-auto">
+            <div>
+                <img className="h-auto w-full rounded-lg" src={src1} alt={alt1} />
             </div>
-            <div className="w-8/12">
-                <Image src={src2} alt={alt2}/>  
+            <div>
+                <img className="h-auto w-full rounded-lg" src={src2} alt={alt2} />
             </div>
-            <div className="w-8/12">
-                <Image src={src3} alt={alt3}/>  
+            <div>
+                <img className="h-auto w-full rounded-lg" src={src3} alt={alt3} />
             </div>
-            
-           
+            <div>
+                <img className="h-auto w-full rounded-lg" src={src1} alt={alt1} />
+            </div>
+            <div>
+                <img className="h-auto w-full rounded-lg" src={src2} alt={alt2} />
+            </div>
+            <div>
+                <img className="h-auto w-full rounded-lg" src={src3} alt={alt3} />
+            </div>
         </div>
     )
 }

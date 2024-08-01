@@ -6,7 +6,7 @@ export default function Layout() {
     return (
         <>
             <Navbar />
-            <div className="w-full bg-green-900 text-white text-center pt-44 flex justify-center">
+            <div className="py-36">
                 <Outlet />
             </div>
             <Footer />

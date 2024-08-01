@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="w-full h-screen bg-[#1ABC9C] text-white text-center pt-2 flex flex-col items-center justify-center">
+        <div className="w-full h-screen  text-white text-center pt-2 flex flex-col items-center justify-center">
                 <h2 className='text-4xl py-8'>ABOUT COMPONENT</h2>
                 <hr className="border-t-4 w-[300px]  border-gray-300 py-2"/>
                 <div className="flex">
